@@ -1,0 +1,27 @@
+.off{
+    vertical-align: center;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    border-style: solid;
+    border-radius: 24px;
+    border-color: rgb(178, 192, 178);
+    border-width:4px;
+    display: flex;
+    background: radial-gradient(rgb(32, 32, 31),rgb(51, 59, 48),rgb(159, 185, 150));
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(244, 248, 6);
+}
+
+.on{
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    border-radius:19px;
+    border-color:#d7ee08;
+    border-style: solid;
+    border-width:4px;
+    display: flex;
+    background: radial-gradient(rgb(221, 117, 27),rgb(124, 167, 122));
+}

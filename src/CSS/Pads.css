@@ -1,0 +1,12 @@
+
+.DrumPads{
+
+    background-color: rgb(25, 27, 24)
+
+}
+
+.table{
+    display: flex;
+width: auto;
+padding: 5px;
+}

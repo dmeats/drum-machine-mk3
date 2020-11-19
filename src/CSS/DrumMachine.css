@@ -1,0 +1,14 @@
+.Display{
+border: solid;
+border-width: 2px;
+
+background-image: linear-gradient(rgb(182, 177, 167),rgb(61, 61, 55), rgb(28, 31, 28), rgb(61, 61, 55), green);
+color:white;
+
+
+}
+.fontstyle{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(11, 24, 100);
+}

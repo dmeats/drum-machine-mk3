@@ -1,25 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import DrumMachine from './Components/DrumMachine.jsx'
 import './App.css';
 
+export const APPLContext = React.createContext({
+  Message: '',
+  ChangeMessage: () => {},
+  
+});
+
+
+
 function App() {
+  
+  const [Message, setMessage] = useState('')
+  
+
   return (
+    <APPLContext.Provider value = {{
+      Message,
+      setMessage,
+      
+      ChangeMessage: Message => setMessage(Message),
+     
+  
+      }}>
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
+        <DrumMachine />
+        
       </header>
     </div>
+    </APPLContext.Provider>
   );
 }
 
